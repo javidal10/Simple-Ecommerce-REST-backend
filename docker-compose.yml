@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+    environment:
+      DATABASE_URL: postgresql://commerceadmin:12345678commerce@db:5432/ecommerce?schema=public
+
+  db:
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: commerceadmin
+      POSTGRES_PASSWORD: 12345678commerce
+      POSTGRES_DB: ecommerce
