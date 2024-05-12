@@ -21,16 +21,16 @@ This is a simple RESTful backend for an ecommerce application.
 
 1. Clone the repository:
 
-\`\`\`bash
+```bash
 git clone https://github.com/your-username/Simple-Ecommerce-REST-backend.git
 cd Simple-Ecommerce-REST-backend
-\`\`\`
+```
 
 2. Install dependencies:
 
-\`\`\`bash
+```bash
 yarn install
-\`\`\`
+```
 
 3. Set up the database:
    
@@ -39,15 +39,15 @@ yarn install
 
 4. Run the migrations and seed the database:
 
-\`\`\`bash
+```bash
 npx prisma migrate dev --name init
-\`\`\`
+```
 
 5. Start the server:
 
-\`\`\`bash
+```bash
 yarn start
-\`\`\`
+```
 
 6. The server should now be running. You can access the API at `http://localhost:3000`.
 
