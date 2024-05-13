@@ -63,6 +63,11 @@ yarn start
 - `GET /api/cart/:userId`: Retrieve the shopping cart for a specific user.
 - `PUT /api/cart/:userId`: Update the shopping cart for a specific user.
 
+## DB Model
+
+![image](https://github.com/javidal10/Simple-Ecommerce-REST-backend/assets/80496280/09ce5568-22f1-4660-8bda-03ee38df1328)
+
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request.
